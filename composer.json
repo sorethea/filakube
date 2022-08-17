@@ -24,6 +24,7 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
+            "Sorethea\\FilakubeAdmin\\": "packages/sorethea/filakube-admin/src/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
         }
@@ -61,6 +62,12 @@
             "pestphp/pest-plugin": true
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/sorethea/filakube-admin"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true
 }

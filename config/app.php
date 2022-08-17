@@ -185,7 +185,7 @@ return [
         /*
          * Package Service Providers...
          */
-
+        Sorethea\FilakubeAdmin\AdminServiceProvider::class,
         /*
          * Application Service Providers...
          */
